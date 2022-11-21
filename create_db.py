@@ -1,8 +1,7 @@
 # create_db.py
 
 
-from project.app import db
-from project.models import Post
+from project.app import db, Post
 
 # create the database and the db table
 db.create_all()
